@@ -8,30 +8,69 @@
 <body>
   <h1>世界一重い鳥一覧</h1>
   <table>
-    <tr>
-      <th>果物</th>
-      <th>平均重さ</th>
-      <th>最大重さ</th>
-      <th>味</th>
-    </tr>
-    <tr>
-      <td>りんご</td>
-      <td>50</td>
-      <td>80</td>
-      <td>甘い</td>
-    </tr>
-    <tr>
-      <td>なし</td>
-      <td>60</td>
-      <td>90</td>
-      <td>甘い</td>
-    </table>
-    </tr>
-    <tr>
-      <td>ブドウ</td>
-      <td>60</td>
-      <td>80</td>
-      <td>酸っぱい</td>
-    </tr>
+    <thead>
+      <tr>
+        <th>果物</th>
+        <th>平均重さ</th>
+        <th>最大重さ</th>
+        <th>味</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>りんご</td>
+        <td>50</td>
+        <td>80</td>
+        <td>甘い</td>
+      </tr>
+      <tr>
+        <td>なし</td>
+        <td>60</td>
+        <td>90</td>
+        <td>甘い</td>
+      </tr>
+      <tr>
+        <td>ブドウ</td>
+        <td>60</td>
+        <td>80</td>
+        <td>酸っぱい</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>V2</h2>
+  <table>
+    <thead>
+      <tr>
+        <th rowspan="2">果物</th>
+        <th colspan="2">平均重さ</th>
+        <th rowspan="2">味</th>
+      </tr>
+      <tr>
+        <th>平均重さ[kg]</th>
+        <th>平均重さ[lb]</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>りんご</td>
+        <td>50</td>
+        <td>60</td>
+        <td>甘い</td>
+      </tr>
+      <tr>
+        <td>なし</td>
+        <td>60</td>
+        <td>75</td>
+        <td>甘い</td>
+      </tr>
+      <tr>
+        <td>ブドウ</td>
+        <td>60</td>
+        <td>777</td>
+        <td>酸っぱい</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
