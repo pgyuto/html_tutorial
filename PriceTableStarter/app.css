@@ -107,7 +107,7 @@ body {
 
 }
 
-.pricing-features-item:fisrt-child { 
+.pricing-features-item:first-child { 
   border-bottom: 1px solid #e1f1ff;
 }
 
